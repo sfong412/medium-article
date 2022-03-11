@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 180 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  font-family: 'Noto Serif', serif;
+  line-height: 28px;
+}
+
+.container h3 {
+  font-size: 28px;
+}
+
+.section > .link {
+  background: #b9fbc0; /* Old browsers */
+  background: -moz-linear-gradient(top,  #b9fbc0 1%, #98f5e1 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #b9fbc0 1%,#98f5e1 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #b9fbc0 1%,#98f5e1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9fbc0', endColorstr='#98f5e1',GradientType=0 ); /* IE6-9 */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.section > .link:hover {
+  background: #57f567; /* Old browsers */
+  background: -moz-linear-gradient(top,  #57f567 1%, #41edc8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #57f567 1%,#41edc8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #57f567 1%,#41edc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57f567', endColorstr='#41edc8',GradientType=0 ); /* IE6-9 */
+}
+
+.text-transparent {
+  opacity: 0.8;
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 680px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 550px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 420px;
+  }
+}
